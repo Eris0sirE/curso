@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="code.js"></script>
+</head>
+<body>
+    <form>
+       <h1> Gostaria de fazer seu Cadastro? :)</h1> 
+        <hr><br>
+        <label for="username">Apelido</label><br>
+        <input type="text" id="nick" name="nick"><br><br>
+        <label for="pronomes">Pronomes </label>
+        <select id="pronomes" name="pronomes">
+            <option> Pronomes </option>
+            <option value="m"> Ele/Dele </option>
+            <option value="f"> Ela/Dela </option>
+            <option value="n"> Elu/Delu </option>
+        </select><br><br>
+        <label for="nome">Nome </label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+        <label for="sobrenome">Sobrenome </label> <br>
+        <input type="text" id="sobrenome" name="sobrenome"><br><br>
+        <input type="text" id="endereco" name="endereco"><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="pass">Senha</label><br>
+        <input type="password" name="senha" id="senha"><br><br>
+        <button onclick="fazerCadastro()">Cadastrar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>
