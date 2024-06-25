@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: beige;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+header{
+    background-color: #445346;
+    color: beige;
+    font-size: 24px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+main{
+    background-color: beige;
+    .page-title{
+        font-size: 40px;
+        padding: 50px 0;
+        text-align: center;
+        padding: 0 30px;
+    }
+    content{
+        display: flex;
+
+        section{
+            flex: 1;
+        }
+        aside{
+            min-width: 250px;
+        }
+    }
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+    thead{
+        tr{
+            border-bottom: 3px solid beige;
+        }
+        th{
+            text-align: left;
+            padding-bottom: 10px;
+            text-transform: uppercase;
+            color: #586359;
+        }
+    }
+    tbody{
+
+    }
+}
+
+.product {
+    display: flex;
+    align-items: center;
+  
+    img {
+      border-radius: 6px;
+    }
+  
+    .info {
+      margin-left: 20px;
+      .name {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      .category {
+        color: #666;
+      }
+    }
+  }
+  .qty {
+    background: #eee;
+    display: inline-flex;
+    padding: 0 0;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 60px;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 30px;
+  
+    span {
+      margin: 0 10px;
+    } 
+}
